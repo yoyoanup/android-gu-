@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yoyoanup.aswitch.MainActivity">
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="108dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="209dp"
+        android:layout_marginEnd="117dp"
+        android:layout_alignTop="@+id/tx"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="82dp" />
+
+</RelativeLayout>
