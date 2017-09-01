@@ -1,7 +1,4 @@
-
-
 package com.example.yoyoanup.add;
-
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -33,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         EditText e1=(EditText)findViewById(R.id.num1);
         EditText e2=(EditText)findViewById(R.id.num2);
-       // Button b1=(Button) findViewById(R.id.okbt);
+       
         int a,b,c;
         a=Integer.parseInt(e1.getText().toString());
         b=Integer.parseInt(e2.getText().toString());
@@ -66,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         }
 
-        //Toast.makeText(getApplication(),"sum is "+c+,Toast.LENGTH_SHORT).show();
+       
 
 
     }
