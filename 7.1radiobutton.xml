@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yoyoanup.gen.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your sex"
+        android:textSize="25dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="102dp"
+        android:id="@+id/rg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <RadioButton
+            android:id="@+id/mc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="58dp"
+            android:text="Female"
+            android:layout_below="@+id/cs"
+            android:layout_toEndOf="@+id/rg" />
+
+        <RadioButton
+            android:id="@+id/cs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="33dp"
+            android:text="male"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/rg"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp" />
+
+
+
+</RelativeLayout>
+
+
+
